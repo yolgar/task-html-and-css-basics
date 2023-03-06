@@ -1,6 +1,38 @@
-body {
-    background-color: blueviolet;
+html, body {
+    margin: 0 auto;
 }
-h1 {
-font-family: 'Montserrat', sans-serif;
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    width: 100%;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+}
+
+.header-nav {
+    max-width: 1150px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin: 20px;
+    width: 100px;
+}
+
+.header__menu .menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    padding: 15px;
+    width: 200px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
 }
