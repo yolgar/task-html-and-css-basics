@@ -19,6 +19,10 @@ html {
     min-height: 50px;
 }
 
+.cell-white {
+    color: white;
+}
+
 /* HEADER */
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
@@ -46,9 +50,56 @@ html {
 
 .nav__link {
     text-decoration: none;
-    color: white;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero__content {
+    min-height: 200px;
+    width: 45%;
+}
+
+.hero__image {
+    min-height: 700px;
+    width: 55%;
+}
+
+.content_h1 {
+    font-weight: bold;
+}
+
+.hero__image-rotate {
+    min-width: 200px;
+    min-height: 100px;
+    rotate: 350deg;
+}
+
+.button {
+    background-color: rgb(9, 188, 235);
+    color: white;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #58D5F7;
+}
+
+.button:active,
+.button-hero:active {
+    border-radius: 20%;
+}
+
+.button-hero {
+    background-color: rgb(38, 241, 139);
+}
+
+.button-hero:active {
+    background-color: #6AFFB4;
+}
 
 /* End of HEADER */
 /* MAIN */
