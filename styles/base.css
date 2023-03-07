@@ -1,38 +1,57 @@
 html, body {
     margin: 0 auto;
 }
+
 html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header-container {
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.row {
     width: 100%;
+}
+
+.cell {
+    min-height: 50px;
+}
+
+/* HEADER */
+.header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
 }
 
-.header-nav {
-    max-width: 1150px;
-    min-height: 80px;
+.header__container {
+    min-height: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .header__logo {
-    margin: 20px;
-    width: 100px;
+    margin-top: 2%;
 }
 
-.header__menu .menu-items {
+.header__nav .nav__items {
     display: flex;
     justify-content: space-between;
 }
 
-.menu__item {
-    padding: 15px;
+.nav__item {
+    margin-top: 5%;
     width: 200px;
 }
 
-.menu__link {
+.nav__link {
     text-decoration: none;
     color: white;
 }
+
+
+/* End of HEADER */
+/* MAIN */
+/* End of MAIN */
+/* FOOTER */
+/* End of FOOTER */
