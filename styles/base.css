@@ -24,19 +24,25 @@ html, body {
 
 /* HEADER */
 .header {
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .header__container {
     min-height: 60px;
     display: flex;
     justify-content: space-between;
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; */
 }
+
 .header__logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .nav__items {
     display: flex;
     justify-content: center;
@@ -55,24 +61,34 @@ html, body {
     text-decoration: none;
 }
 
+.nav__link:hover {
+    color: #58D5F7
+}
+
 .hero {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
 .hero__content {
     min-height: 200px;
-    width: 45%;
+    width: 40%;
+    text-align: left;
+    margin-right: 15px;
 }
 
 .hero__image {
-    min-height: 700px;
-    width: 55%;
+    min-height: 300px;
+    width: 50%;
 }
 
 .content_h1 {
     font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 5px;
+}
+.content__p {
+    padding: 10px 5px;
+    color: rgb(255, 255, 255, 0.75);
 }
 
 .hero__image-rotate {
@@ -81,31 +97,61 @@ html, body {
     rotate: 350deg;
 }
 
-.button {
-    background-color: rgb(9, 188, 235);
-    color: white;
-    cursor: pointer;
-}
-
-.button:active {
-    background-color: #58D5F7;
-}
-
-.button:active,
-.button-hero:active {
-    border-radius: 20%;
-}
-
 .button-hero {
     background-color: rgb(38, 241, 139);
+    border: 1px solid #25F18B;
+    transition: background-color 0.5s ease-in-out;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 5px;
+    min-width: 200px;
+    border-radius: 10px;
+    margin: 30px auto;
 }
 
-.button-hero:active {
+.button-hero:hover {
     background-color: #6AFFB4;
 }
 
+.button-hero__link {
+    text-align: center;
+}
+
+.button-hero--cta {
+    background-color: rgb(9, 188, 235);
+    border: 1px solid rgb(9, 188, 235);
+    transition: background-color 0.5s ease-in-out;
+    min-width: 100px;
+   
+}
+
+.button-hero--cta:hover {
+    background-color: #58D5F7;
+}
+
+.button-hero--cta:hover,
+.button-hero:hover {
+    border-radius: 10%;
+}
 /* End of HEADER */
+
 /* MAIN */
+/* Features */
+.features {
+    background-color: black;
+}
+.title__content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+   
+}
+/* End of Features */
+
 /* End of MAIN */
+
 /* FOOTER */
 /* End of FOOTER */
