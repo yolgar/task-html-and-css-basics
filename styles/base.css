@@ -176,7 +176,13 @@ html, body {
 }
 
 /* End of Features */
-
+.row-grey{
+    background-color: #F9FAFA;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+}
 /* End of MAIN */
 
 /* FOOTER */
