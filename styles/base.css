@@ -21,7 +21,14 @@ html, body {
 .cell-white {
     color: white;
 }
-
+.title {
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+.paragraph {
+    padding: 10px 5px;
+    font-size: 1rem;
+}
 /* HEADER */
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -88,9 +95,7 @@ html, body {
 }
 
 .content__p {
-    padding: 10px 5px;
     color: rgb(255, 255, 255, 0.75);
-    font-size: 1rem;
 }
 
 .hero__image-rotate {
@@ -144,13 +149,10 @@ html, body {
 .features {
     background-color: black;
 }
-
 .title__content {
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    padding: 10px 10px;
 }
 
 .features-items {
@@ -183,7 +185,22 @@ html, body {
     display: flex;
     justify-content: center;
 }
+.imac-container {
+    display: flex;
+    margin-top: 30px;
+}
+.imac__image{
+    min-height: 300px;
+    width: 50%;
+}
+.imac__content {
+    min-height: 200px;
+    width: 40%;
+    margin-left: 80px;
+}
+
 /* End of MAIN */
 
 /* FOOTER */
 /* End of FOOTER */
+
