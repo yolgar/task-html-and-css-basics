@@ -264,8 +264,18 @@ padding:40px;
 .team__media {
     padding: 10px;
 }
-
 /* End of MAIN */
 /* FOOTER */
+.footer-row {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.footer-content {
+    padding: 15px;
+}
+.footer-image {
+    padding-left: 10px;
+}
 /* End of FOOTER */
 
