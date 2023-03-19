@@ -1,6 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
-    margin: 0 auto;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,16 +23,19 @@ html, body {
 .cell-white {
     color: white;
 }
+
 .title {
     font-size: 1.5rem;
     padding: 10px 10px;
     margin-top: 20px;
 }
+
 .paragraph {
     padding: 10px 5px;
     font-size: 1rem;
     color: #A2A3A3;
 }
+
 /* HEADER */
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -76,18 +81,19 @@ html, body {
 
 .hero {
     display: flex;
+    padding: 90px;
 }
 
 .hero__content {
     min-height: 200px;
-    width: 40%;
+    width: 30%;
     text-align: left;
     margin-right: 15px;
 }
 
 .hero__image {
-    min-height: 300px;
     width: 50%;
+    margin-left: 90px;
 }
 
 .content_h1 {
@@ -103,7 +109,7 @@ html, body {
 .hero__image-rotate {
     min-width: 200px;
     min-height: 100px;
-    rotate: 350deg;
+    transform: rotate(354deg);
 }
 
 .button-hero {
@@ -151,6 +157,7 @@ html, body {
 .features {
     background-color: black;
 }
+
 .title__content {
     color: white;
     display: flex;
@@ -163,12 +170,12 @@ html, body {
     align-items: center;
     padding: 30px 30px;
 }
+
 .image-flex {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px 5px;
 }
+
 .features__image {
     background: white;
     border-radius: 50%;
@@ -180,51 +187,69 @@ html, body {
 }
 
 /* End of Features */
-.row-grey{
+.row-grey {
     background-color: #F9FAFA;
 }
+
 .logos {
     display: flex;
     justify-content: center;
 }
+
 .imac-cell {
     display: flex;
     margin-top: 30px;
 }
-.imac__image{
+
+.image-flex {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.imac__image {
     min-height: 300px;
     width: 50%;
 }
+
 .imac__content {
     min-height: 200px;
     width: 40%;
     margin-left: 80px;
 }
+
 .pricing-cl {
     display: flex;
     margin: 40px auto;
 }
+
 .price {
     font-size: 3rem;
     font-weight: 800;
     padding: 10px;
 }
+
 .options__bold {
     font-weight: bold;
 }
+
 .pricing-options {
-display: flex;
-align-items: center;
-padding:40px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
 }
+
 .pricing-header__p {
     font-size: 0.8rem;
     text-align: center;
 }
+
 .option_list {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 .options {
     text-align: center;
     margin: 20px;
@@ -232,38 +257,48 @@ padding:40px;
     min-height: 300px;
     flex-basis: 33.33%;
 }
+
 .option-highlight {
     background-color: white;
     box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
     border-radius: 7px;
 }
+
 .team-header {
     display: flex;
     justify-content: center;
 }
+
 .team-content {
     display: flex;
     justify-content: space-around;
 }
+
 .team-avatar {
     display: flex;
     justify-content: center;
 }
+
 .team-members {
     text-align: center;
 }
+
 .team-member {
     padding: 5px;
 }
+
 .team-member--title {
     margin-top: 20px;
 }
+
 .team-member--bold {
     font-weight: bold;
 }
+
 .team__media {
     padding: 10px;
 }
+
 /* End of MAIN */
 /* FOOTER */
 .footer-row {
@@ -271,11 +306,13 @@ padding:40px;
     justify-content: center;
     background-color: black;
 }
+
 .footer-content {
     padding: 15px;
 }
+
 .footer-image {
     padding-left: 10px;
 }
-/* End of FOOTER */
 
+/* End of FOOTER */

@@ -34,24 +34,24 @@
             </div>
         </nav>
         <section class="hero container">
-            <div class="hero__content cell-white">
+            <article class="hero__content cell-white">
                 <h1 class="content_h1">Beautiful Free Nova template</h1>
                 <p class="content__p paragraph">A top notch premium quality template for your next web project.</p>
                 <button class="button-hero">
                     <a class="button-hero__link">Download FREE!</a>
                 </button>
-            </div>
-            <div class="hero__image cell">
-                <image src="./images/screen.png" alt="screen-image" class="hero__image-rotate" />
-            </div>
+            </article>
+            <figure class="hero__image cell">
+                <image class="hero__image-rotate" src="./images/screen.png" alt="screen-image"/>
+            </figure>
         </section>
     </header>
 
     <main>
         <section id="features" class="features row">
-            <div class="features-title container">
+            <header class="features-title container">
                 <h2 class="title__content title">FEATURES</h2>
-            </div>
+            </header>
             <div class="features-items container">
                 <div class="features__item cell cell-white">
                     <div class="image-flex">
@@ -73,19 +73,21 @@
                         needs.</p>
                 </div>
                 <div class="features__item cell cell-white">
-                    <div class="image-flex">
+                    <figure class="image-flex">
                         <image src="./images/design.svg" alt="mobile" class="features__image">
-                    </div>
-                    <h3 class="features__title">SLICK AND BEAUTIFUL DESIGN</h3>
-                    <p class="features__content content__p paragraph">Trendy and fresh design, fits any website.</p>
+                    </figure>
+                    <article>
+                        <h3 class="features__title">SLICK AND BEAUTIFUL DESIGN</h3>
+                        <p class="features__content content__p paragraph">Trendy and fresh design, fits any website.</p>
+                    </article>
                 </div>
             </div>
         </section>
-        <section class="logos row-grey">
+        <aside class="logos row-grey">
             <div class="logos container">
                 <img class="logos__images" src="./images/logos.png" alt="logos">
             </div>
-        </section>
+        </aside>
 
 
         <section class="imac row">
@@ -105,37 +107,37 @@
 
         <section id="pricing" class="row row-grey">
             <div class="pricing-cl">
-                <div class="pricing-header container">
+                <header class="pricing-header container">
                     <h2 class="pricing-header__title title">CHOOSE YOUR PRICING PLAN</h2>
                     <p class="pricing-header__p paragraph">Pick any of our super affordable pricing plans</p>
-                </div>
+                </header>
             </div>
             <div class="pricing-options container">
-                <div class="options cell">
-                    <h4>BASIC</h4>
-                    <h5 class="price"><span>&#36;</span>15</h5>
-                    <h6 class="options__bold">per month</h6> <br />
+                <ul class="options cell">
+                    <li><h4>BASIC</h4></li>
+                    <li><h5 class="price"><span>&#36;</span>15</h5></li>
+                    <li><h6 class="options__bold">per month</h6></li>
                     <ul class="option_list">
                         <li class="options__bold">Up to 7 Projects</li>
                         <li class="options__bold">2 Additional Developers</li>
                     </ul>
                     <button class="button-hero button-hero--cta">Get Started</button>
-                </div>
-                <div class="option-highlight options cell">
-                    <h4>AGENCY</h4>
-                    <h5 class="price"><span>&#36;</span>55</h5>
-                    <h6 class="options__bold">per month</h6><br />
+                </ul>
+                <ul class="option-highlight options cell">
+                    <li><h4>AGENCY</h4></li>
+                    <li><h5 class="price"><span>&#36;</span>55</h5></li>
+                    <li><h6 class="options__bold">per month</h6></li>
                     <ul class="option_list">
                         <li class="options__bold">Up to 25 Projects</li>
                         <li class="options__bold">2 Additional Developers</li>
                         <li class="options__bold">Unlimited Support</li>
                     </ul>
                     <button class="button-hero button-hero--cta">Get Started</button>
-                </div>
-                <div class="options cell">
-                    <h4>PRO</h4>
-                    <h5 class="price"><span>&#36;</span>75</h5>
-                    <h6 class="options__bold">per month</h6><br />
+                </ul>
+                <ul class="options cell">
+                    <li><h4>PRO</h4></li>
+                    <li><h5 class="price"><span>&#36;</span>75</h5></li>
+                    <li><h6 class="options__bold">per month</h6></li>
                     <ul class="option_list options__bold">
                         <li class="options__bold">Up to 25 Projects</li>
                         <li class="options__bold">2 Additional Developers</li>
@@ -143,22 +145,22 @@
                         <li class="options__bold">1,5GB Disk Space</li>
                     </ul>
                     <button class="button-hero button-hero--cta">Get Started</button>
-                </div>
+                </ul>
             </div>
         </section>
 
         <section id="team" class="team-row row">
-            <div class="team-header container">
+            <header class="team-header container">
                 <h2 class="team__title title">THE TEAM</h2>
-            </div>
+            </header>
             <div class="team-content container">
                 <div class="team-cell cell">
                     <div class="team-avatar">
                         <img src="./images/cto.png" alt="cto">
                     </div>
                     <ul class="team-members">
-                        <li class="team-member team-member--title paragraph">CTO</li>
-                        <li class="team-member team-member--bold">Johny B Good</li>
+                        <li class="team-member team-member--title paragraph"><h4>CTO</h4></li>
+                        <li class="team-member"><h3 class="team-member--bold">Johny B Good</h3></li>
                         <li class="team-member">The brains behind the whole operation</li>
                     </ul>
                     <div class="team-members">
@@ -171,8 +173,8 @@
                         <img src="./images/ceo.png" alt="ceo">
                     </div>
                     <ul class="team-members">
-                        <li class="team-member team-member--title paragraph">CEO</li>
-                        <li class="team-member team-member--bold">Roll Over Beethoven</li>
+                        <li class="team-member team-member--title paragraph"><h4>CEO</h4></li>
+                        <li class="team-member"><h3 class="team-member--bold">Roll Over Beethoven</h3></li>
                         <li class="team-member">The one that puts it all together</li>
                     </ul>
                     <div class="team-members">
@@ -185,8 +187,8 @@
                         <img src="./images/cfo.png" alt="cfo">
                     </div>
                     <ul class="team-members">
-                        <li class="team-member team-member--title paragraph">CFO</li>
-                        <li class="team-member team-member--bold">Chuck Berry</li>
+                        <li class="team-member team-member--title paragraph"><h4>CFO</h4></li>
+                        <li class="team-member"><h3 class="team-member--bold">Chuck Berry</h3></li>
                         <li class="team-member">The guy with his hand on the wallet</li>
                     </ul>
                     <div class="team-members">
@@ -201,11 +203,11 @@
 
     <footer class="footer-row row">
         <div class="footer-content">
-<h5 class="title__content">A free template by 
-    <img class="footer-image" src="./images/webscope.svg" alt="webscope">
-</h5>
+            <h5 class="title__content">A free template by
+                <img class="footer-image" src="./images/webscope.svg" alt="webscope">
+            </h5>
 
-</div>
+        </div>
     </footer>
 
 </body>
