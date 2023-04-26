@@ -171,10 +171,15 @@ html, body {
     padding: 30px 30px;
 }
 
-.image-flex {
+.features__item {
     display: flex;
-    padding: 10px 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+    padding: 10px;
 }
+
 
 .features__image {
     background: white;
@@ -184,6 +189,8 @@ html, body {
 .features__content {
     font-size: 0.8rem;
     color: rgb(255, 255, 255, 0.8);
+    width: 200px;
+    text-align: center;
 }
 
 /* End of Features */
@@ -199,6 +206,7 @@ html, body {
 .imac-cell {
     display: flex;
     margin-top: 30px;
+    
 }
 
 .image-flex {
@@ -206,6 +214,9 @@ html, body {
     width: 50px;
     background-color: white;
     border-radius: 50%;
+    display: flex;
+    padding: 10px;
+    margin: 15px 0px;
 }
 
 .imac__image {
